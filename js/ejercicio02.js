@@ -5,5 +5,7 @@ const boton = document.getElementById('botonCambiar');
 boton.addEventListener('click', () => {
   if (parrafo.textContent === "Texto original") {
     parrafo.textContent = "Texto cambiado";
-  } 
+  } else {
+    parrafo.textContent = "Texto original";
+  }
 });
