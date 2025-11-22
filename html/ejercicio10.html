@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animación DOM</title>
+
+    <style>
+         body {
+            font-family: Arial;
+            margin: 40px;
+        }
+
+        #cuadro {
+            width: 80px;
+            height: 80px;
+            background: #f7ca43;
+            border-radius: 10px;
+            position: relative; /* Necesario para animarlo */
+            transition: transform 0.5s;
+        }
+
+        /* Animación */
+        @keyframes moverDerecha {
+            from { transform: translateX(0); }
+            to   { transform: translateX(300px); }
+        }
+
+        /* Clase que activa la animación */
+        .mover {
+            animation: moverDerecha 1.2s forwards;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Animación con DOM y CSS</h2>
+
+    <div id="cuadro"></div>
+
+    <br>
+    <button id="btnMover">Mover</button>
+    <button id="btnResetear">Reiniciar</button>
+
+    <script src="../js/ejercicio10.js"></script>
+
+</body>
+</html>
