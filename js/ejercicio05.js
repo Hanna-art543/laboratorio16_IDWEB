@@ -30,3 +30,4 @@ btnBorrar.addEventListener("click", () => {
     mensaje.textContent = "La lista ya está vacía.";
   }
 });
+

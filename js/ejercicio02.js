@@ -9,3 +9,4 @@ boton.addEventListener('click', () => {
     parrafo.textContent = "Texto original";
   }
 });
+

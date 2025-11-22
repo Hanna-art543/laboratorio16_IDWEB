@@ -22,3 +22,4 @@ btnRestar.addEventListener("click", () => {
     mensaje.textContent = "No puede bajar de cero.";
   }
 });
+

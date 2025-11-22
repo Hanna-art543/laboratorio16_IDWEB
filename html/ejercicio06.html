@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar formulario con DOM</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 640px;
+            margin: 40px auto;
+            padding: 0 16px;
+        }
+
+        form {
+            display: grid;
+            gap: 12px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        button {
+            width: fit-content;
+            padding: 8px 14px;
+            font-size: 16px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            background: #2b7cff;
+            color: white;
+        }
+
+        .error-span {
+            display: block;
+            margin-top: 6px;
+            font-size: 14px;
+            color: #b00020;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Validar formulario con DOM</h1>
+
+    <form id="formulario">
+
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" name="nombre" type="text" placeholder="Ingresa tu nombre">
+
+        <label for="correo">Correo:</label>
+        <input id="correo" name="correo" type="email" placeholder="ejemplo@dominio.com">
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="../js/ejercicio06.js"></script>
+
+</body>
+</html>
