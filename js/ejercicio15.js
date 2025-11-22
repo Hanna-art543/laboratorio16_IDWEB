@@ -1,6 +1,6 @@
 // Objecto usuario
 const usuario = {
-    nombre: "Ana Pérez",
+    nombre: "Ana Miranda",
     correo: "ana@example.com",
     rol: "Administrador"
 };
@@ -20,3 +20,5 @@ const p = document.getElementById("mostrarUsuario");
 p.textContent = `Nombre: ${usuarioRecuperado.nombre} 
 Correo: ${usuarioRecuperado.correo} 
 Rol: ${usuarioRecuperado.rol}`;
+
+

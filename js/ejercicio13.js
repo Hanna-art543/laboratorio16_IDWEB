@@ -7,3 +7,6 @@ const persona = JSON.parse(cadenaJSON);
 // Mostrar un valor
 document.getElementById("resultado").textContent =
     "Nombre: " + persona.nombre;
+
+
+    

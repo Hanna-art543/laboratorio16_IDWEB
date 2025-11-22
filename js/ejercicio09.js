@@ -5,3 +5,4 @@ lista.addEventListener("click", () => {
         event.target.remove();
     }
 });
+

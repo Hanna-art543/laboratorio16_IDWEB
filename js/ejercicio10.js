@@ -9,3 +9,4 @@ btnMover.addEventListener("click", () => {
 btnReset.addEventListener("click", () => {
     cuadro.classList.remove("mover");
 });
+

@@ -9,3 +9,4 @@ const persona = {
 const personaJson = JSON.stringify(persona);
 
 console.log(personaJson);
+

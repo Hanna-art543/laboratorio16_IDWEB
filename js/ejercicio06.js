@@ -5,7 +5,7 @@ const inputCorreo = document.getElementById("correo");
 // Elimina spans 
 function limpiarErrores(input) {
     const parent = input.parentElement;
-    const spans = parent.querySelectorAll('.error-span'); // FALTABA EL PUNTO
+    const spans = parent.querySelectorAll('.error-span'); 
     spans.forEach(s => s.remove());
 }
 
@@ -66,3 +66,5 @@ form.addEventListener('submit', (e) => {
         }
     });
 });
+
+
