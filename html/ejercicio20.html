@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador-Perfil</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            max-width: 500px;
+            margin: 40px auto;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        input, button {
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        #perfil {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            background: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h2>Simulador de Perfil</h2>
+
+    <form id="formPerfil">
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+        <input type="number" id="edad" placeholder="Ingresa tu edad" required>
+        <input type="text" id="pais" placeholder="Esojan un país" required>
+        <button type="submit">Guardar Perfil</button>
+    </form>
+
+    <div id="perfil"></div>
+
+    <script src="../js/ejercicio20.js"></script>
+</body>
+</html>
